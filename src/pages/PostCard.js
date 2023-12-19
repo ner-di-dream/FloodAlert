@@ -51,7 +51,7 @@ function PostCard(props) {
 				<TitleText>{props.id}</TitleText>
 				<s.VrLine />
 				<DangerDiv>
-					<ProgressBar current={props.danger} max={100} />
+					<ProgressBar current={100 - props.danger} max={100} />
 				</DangerDiv>
 			</div>
 		</Entire>
